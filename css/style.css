@@ -1,0 +1,177 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+
+}
+
+*:focus {
+  outline: 2px dotted #ff7500;
+  outline-offset: 3px;
+}
+
+
+/* site-headr  */
+
+.site-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #ffff;
+}
+
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* container */
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-link {
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+  opacity: 0.8;
+}
+
+.logo-link:active {
+  opacity: 0.6;
+}
+
+
+.logo-link img {
+  display: block;
+}
+
+.site-header-actions{
+  display: flex;
+  align-items: center;
+}
+
+/* sitnav */
+
+.sitenav-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-right: 32px;
+  list-style: none;
+
+}
+
+.sitenav-item {
+  margin-right: 32px;
+}
+
+.sitenav-item:last-child {
+  margin-right: 0;
+}
+
+
+.sitenav-link{
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  transition: color 0.4s ease,
+    opacity 0.4s ease;
+}
+
+.sitenav-link:hover {
+  color: #ff7500;
+}
+
+.sitenav-link:active {
+  opacity: 0.6;
+}
+
+/* main-link */
+
+
+.main-link {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  /* font-weight: 700; */
+  line-height: 15px;
+  background-color: #DE2E54;
+  ;
+  color: #ffff;
+  text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+
+.main-link:active {
+  opacity: 0.8;
+}
+
+
+/* hero */
+
+.hero {
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  background-color:#0EB4C1;
+  color: white;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-content {
+  width: 390px;
+}
+ 
+.hero-heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-size: 40px;
+  line-height: 1.2;
+  font-family: 'Roboto Condensed', "Arial", sans-serif;
+}
+
+.hero-text {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.hero-img {
+  width: 510px;
+  height: 510px;
+  border-radius: 15px;
+ 
+}

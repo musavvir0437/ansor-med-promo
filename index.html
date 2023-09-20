@@ -5,41 +5,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AnsorMed</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+  <link rel="stylesheet" href="./css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
   <!-- site header -->
   <header class="site-header">
-    <a class="logo-link" href="./index.html">
-      <img src="./img/logo.svg" alt="ansor-med-logosi" width="185px" height="50px">
-    </a>
-    <div class="site-header-action">
-      <!-- sitenav -->
-      <nav>
-        <ul class="sitenav-list">
-          <li class="site-item"><a href="#" class="sitenav-link">Xizmatlar</a></li>
-          <li class="site-item"><a href="#" class="sitenav-link">Dorilar</a></li>
-          <li class="site-item"><a href="#" class="sitenav-link">Asal</a></li>
-          <li class="site-item"><a href="#" class="sitenav-link">Kontaktlar</a></li>
-          <li class="site-item"><a href="#" class="sitenav-link">Blog</a></li>
-        </ul>
+
+    <div class="site-header-container container">
+      <a class="logo-link" href="./index.html">
+        <img src="./img/logo.svg" alt="ansor-med-logosi" width="185px" height="50px">
+      </a>
+      <div class="site-header-actions">
+        <!-- sitenav -->
+        <nav>
+          <ul class="sitenav-list">
+            <li class="sitenav-item"><a href="#" class="sitenav-link">Xizmatlar</a></li>
+            <li class="sitenav-item"><a href="#" class="sitenav-link">Dorilar</a></li>
+            <li class="sitenav-item"><a href="#" class="sitenav-link">Asal</a></li>
+            <li class="sitenav-item"><a href="#" class="sitenav-link">Kontaktlar</a></li>
+            <li class="sitenav-item"><a href="#" class="sitenav-link">Blog</a></li>
+          </ul>
+         
+        </nav>
         <a href="#" class="main-link">Ro'yxatdan o'tish</a>
-      </nav>
+      </div>
     </div>
   </header>
 
   <main>
     <!-- Hero -->
     <section class="hero">
-      <div class="hero-content">
-        <h2 class="hero-hedaing">Tabiiy davolash usullari yordamida kasalliklardan xalos bo'ling.</h2>
-        <p class="hero-text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko'p uchraydigan kasalliklarni
-          yengishda yordam beradi. Sog'ligingizni o'z ishining professionallariga ishonib topshiring.
-        </p>
-        <a href="#" class="main-link">Qabulga yozilish</a>
+      <div class="hero-container container" >
+        <div class="hero-content">
+          <h2 class="hero-hedaing">Tabiiy davolash usullari yordamida kasalliklardan xalos bo'ling.</h2>
+          <p class="hero-text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko'p uchraydigan kasalliklarni
+            yengishda yordam beradi. Sog'ligingizni o'z ishining professionallariga ishonib topshiring.
+          </p>
+          <a href="#" class="main-link">Qabulga yozilish</a>
+        </div>
+        <img class="hero-img"src="./img/hero-img.svg" alt="shifokor surati" width="423px" height="504px">
       </div>
-      <img src="./img/hero-img.jpg" alt="shifokor surati" width="423px" height="504px"
-        srcset="./img/hero-img.jpg,  ./img/hero-img@2x.jpg">
+     
     </section>
 
     <!-- features -->
@@ -50,12 +62,74 @@
       <ul class="features-list">
         <li class="feature">
           <div class="features-icon-wrapper">
-            <img src="./img/image 1@1x.jpg" alt="Xizmatlar rasmi">
+            <img src="./img/image 1@1x.jpg" alt="Xizmatlar rasmi" width="200px" height="200px">
           </div>
+          <h3 class="feature-heading">Hijoma</h3>
+          <p class="feature-info">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+        </li>
+        <li class="feature">
+          <div class="features-icon-wrapper">
+            <img src="./img/image 1@1x.jpg" alt="Xizmatlar rasmi" width="200px" height="200px">
+          </div>
+          <h3 class="feature-heading">Hijoma</h3>
+          <p class="feature-info">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+        </li>
+        <li class="feature">
+          <div class="features-icon-wrapper">
+            <img src="./img/image 1@1x.jpg" alt="Xizmatlar rasmi" width="200px" height="200px">
+          </div>
+          <h3 class="feature-heading">Hijoma</h3>
+          <p class="feature-info">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
+        </li>
+        <li class="feature">
+          <div class="features-icon-wrapper">
+            <img src="./img/image 1@1x.jpg" alt="Xizmatlar rasmi" width="200px" height="200px">
+          </div>
+          <h3 class="feature-heading">Hijoma</h3>
+          <p class="feature-info">Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir).</p>
         </li>
       </ul>
     </section>
+
+    <!-- contact -->
+    <section class="contact">
+      <div class="contact-inner">
+        <h2 class="contact-text">Qabulga ro'yxatdan o'ting</h2>
+        <div class="comuniction">
+          <h2 class="col">Qo'ng'iroq qilish</h2>
+          <h2 class="col">Telgramda yozish</h2>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- site footer -->
+  <footer class="site-footer">
+    <div class="site-footer-top">
+      <a class="logo-link" href="./index.html">
+        <img src="./img/logo.svg" alt="ansor-med-logosi" width="185px" height="50px">
+      </a>
+      <!-- ijtimoiy link -->
+      <ul class="site-footer-link">
+        <li class="product-item">
+          <a href="#">Xizmatlar</a>
+        </li>
+        <li class="product-item">
+          <a href="#">Dorilar</a>
+        </li>
+        <li class="product-item">
+          <a href="#">Asal</a>
+        </li>
+        <li class="product-item">
+          <a href="#">Kontaktlar</a>
+        </li>
+        <li class="product-item">
+          <a href="#">Blog</a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
 </body>
 
 </html>
